@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+/* I wanted this color as a background across the entire page*/
+body {
+  background-color: #cad2c5;
+}
+
+/* To make it look more stylish but uniform, decided to use these properties on top and bottom of the page*/
+header, footer {
+  text-align: center;
+  font-family: Comic Sans Ms, serif;
+  color: #cad2c5;
+  border-style: solid;
+  border-width: thick;
+  border-color: #2f3e46;
+  background-color: #2f3e46;
+}
+
+/*I wanted a tad of space between the About Me and Contact Me headers*/
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* I wanted to center most of the text within the page and at the same time left align the unordered and ordered lists */
+
+main {
+  font-family: Comic Sans Ms, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+div ul { 
+  text-align: left;
+  padding-left: 500px;
+  padding-righ: 500px;
+}
+
+div ol {
+  text-align: left;
+  padding-left: 700px;
+  padding-right: 700px;
+}
+
+.image-circle {
+  border-radius: 5%;
+  border: solid thick;
+  border-color: #2f3e46;
+}
+
+a:link {color: black;}
+a:visited{color: purple;}
+a:hover {color: lightgreen;}
+a:active {color: white;}
