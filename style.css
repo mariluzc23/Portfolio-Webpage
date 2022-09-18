@@ -18,18 +18,8 @@ header, footer {
   background-color: #2f3e46;
 }
 
-header h1 h2, footer p{
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
 h1 {
-  padding-top: 50px;
-  font-size: 50px;
-}
-
-h2 {
-  height: 80px;
+  font-size: 60px;
 }
 
 /*I wanted a tad of space between the About Me and Contact Me headers*/
@@ -45,21 +35,19 @@ main {
   font-family: Comic Sans Ms, sans-serif;
   text-align: center;
   color: black;
-  font-size: 17px;
-  margin-left: 200px;
-  margin-right: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
+
 
 div ul { 
   text-align: left;
-  margin-left: 300px;
-  margin-righ: 300px;
+  padding-left: 325px
 }
 
 div ol {
   text-align: left;
-  margin-left: 350px;
-  margin-right: 350px;
+  padding-left: 475px
 }
 
 .image-circle {
