@@ -20,6 +20,7 @@ header, footer {
 
 h1 {
   font-size: 60px;
+  margin-bottom: 10px;
 }
 
 /*I wanted a tad of space between the About Me and Contact Me headers*/
@@ -39,21 +40,14 @@ main {
   padding-right: 200px;
 }
 
-
-div ul { 
-  text-align: left;
-  padding-left: 325px
-}
-
-div ol {
-  text-align: left;
-  padding-left: 475px
-}
-
 .image-circle {
-  border-radius: 5%;
+  border-radius: 10%;
   border: solid thick;
   border-color: #2f3e46;
+  object-position: left;
+  width: 400px; 
+
+
 }
 
 a:link {color: black;}
