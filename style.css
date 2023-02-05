@@ -36,8 +36,6 @@ main {
   font-family: Comic Sans Ms, sans-serif;
   text-align: center;
   color: black;
-  padding-left: 200px;
-  padding-right: 200px;
 }
 
 .image-circle {
@@ -70,8 +68,6 @@ a:active {color: white;}
 
   main {
     text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
 }
