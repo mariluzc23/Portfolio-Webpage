@@ -54,3 +54,24 @@ a:link {color: black;}
 a:visited{color: purple;}
 a:hover {color: lightgreen;}
 a:active {color: white;}
+
+/* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+
+  header, footer {
+    text-align: center;
+    font-family: Comic Sans Ms, serif;
+    color: #cad2c5;
+    border-style: solid;
+    border-width: thick;
+    border-color: #2f3e46;
+    background-color: #2f3e46;
+  }
+
+  main {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+}
